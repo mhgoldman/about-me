@@ -1,0 +1,123 @@
+body {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #FFCF33;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #FFE799;
+}
+
+.masthead-title {
+  font-size: 3.5em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-top: 1em;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.masthead-subtitle {
+  font-size: 2em;
+  font-style: italic;
+  font-weight: normal;
+  text-transform: lowercase;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  margin-bottom: 1em; 
+}
+
+.masthead {
+  margin: -8px;
+  padding: 10em 0 11em;
+  background-image: url("https://static.pexels.com/photos/2324/skyline-buildings-new-york-skyscrapers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  border-top: solid 1em gray;
+}
+
+.section-heading {
+  color: orange;
+  font-size: 2em;
+  margin-bottom: 0;
+  margin-top: 1.5em;
+}
+
+.section-subheading {
+  color: #FFCF33;
+  font-size: 1.3em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  margin-top: 1em;
+  margin-bottom: -0.5em;
+}
+
+.introduction,
+.about {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.introduction > p,
+.about > p,
+.footer > p {
+  letter-spacing: 0.025em;
+  font-weight: 300;
+}
+
+.masthead,
+.footer {
+  color: white;
+  text-align: center;
+}
+
+.footer {
+  padding: 3em 0;
+  background-color: gray;
+  margin: 5em -8px 0;
+}
+
+.social-links {
+  list-style: none;
+  padding-left: 0;
+}
+
+.social-links > li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+@media only screen and (max-width: 650px) {
+  .introduction, .about {
+    padding: 0 1em;
+  }
+  
+  .section-heading {
+    margin-top: 1em;
+  }
+  
+  .masthead {
+    padding: 4em 0;
+  }
+
+  .masthead-title {
+    margin-top: 0;
+    padding-top: 0;
+    line-height: 1.25em;
+  }
+  
+  .masthead-subtitle {
+    font-size: 1.6em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  
+  .footer {
+    padding: 1em 0;
+    margin-top: 1em;
+  }
+}
